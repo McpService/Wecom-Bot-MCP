@@ -32,10 +32,11 @@
   },
   "homepage": "https://github.com/HammCn/WeComRobotMCP#readme",
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
     "axios": "^1.6.0",
-    "form-data": "^4.0.0"
+    "form-data": "^4.0.0",
+    "zod": "^3.24.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0"
   },
