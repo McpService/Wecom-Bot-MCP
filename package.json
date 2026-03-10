@@ -1,6 +1,6 @@
 {
   "name": "wecom-robot-mcp",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "企业微信机器人 MCP (Model Context Protocol) 服务，支持发送 Markdown 消息、文件和图片",
   "main": "index.js",
   "type": "module",
