@@ -1,10 +1,5 @@
 # 企业微信机器人 MCP 服务
 
-[![npm version](https://img.shields.io/npm/v/wecom-robot-mcp.svg)](https://www.npmjs.com/package/wecom-robot-mcp)
-[![npm downloads](https://img.shields.io/npm/dm/wecom-robot-mcp.svg)](https://www.npmjs.com/package/wecom-robot-mcp)
-[![Node.js version](https://img.shields.io/node/v/wecom-robot-mcp.svg)](https://nodejs.org/)
-[![License](https://img.shields.io/npm/l/wecom-robot-mcp.svg)](https://github.com/hamm/WeComRobot/blob/main/LICENSE)
-
 基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) 标准实现的企业微信机器人服务，支持通过 AI 助手发送消息、文件和图片到企业微信群聊。
 
 ## ✨ 功能特性
@@ -36,9 +31,9 @@
 ```json
 {
   "mcpServers": {
-    "wecom-robot": {
+    "Wecom-Bot-MCP": {
       "command": "npx",
-      "args": ["-y", "wecom-robot-mcp"],
+      "args": ["-y", "wecom-bot-mcp"],
       "env": {
         "WECOM_WEBHOOK_KEY": "$WECOM_WEBHOOK_KEY"
       }
